@@ -1,0 +1,19 @@
+{
+  "name": "chatbot-app",
+  "version": "1.0.0",
+  "description": "React bot for webpage",
+  "license": "ISC",
+  "author": "Mazen Al-Hajjaj",
+  "type": "commonjs",
+  "main": "index.js",
+  "engines": {
+    "node": "22.14.0",
+    "npm":"11.3.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
