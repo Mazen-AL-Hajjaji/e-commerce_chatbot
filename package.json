@@ -8,12 +8,22 @@
   "main": "index.js",
   "engines": {
     "node": "22.14.0",
-    "npm":"11.3.0"
+    "npm": "11.3.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "@google-cloud/dialogflow": "^7.0.1",
+    "body-parser": "^2.2.0",
+    "dialogflow": "^1.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "pb-util": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/dialogflow": "^1.0.0",
+    "nodemon": "^3.1.10"
   }
 }
