@@ -1,0 +1,136 @@
+/* .bot-card {
+  width: 240px;
+  flex: 0 0 auto;
+}
+
+.card {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  background: white;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card-image {
+  position: relative;
+  height: 160px;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-title {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+.card-content {
+  padding: 10px 14px;
+  font-size: 14px;
+  color: #333;
+}
+
+.card-action {
+  padding: 10px 14px;
+  background: #fff9d4;
+  text-align: right;
+}
+
+.card-action a {
+  background-color: #f28500;
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.card-action a:hover {
+  background-color: #d97706;
+} */
+
+
+
+.bot-card {
+  width: 200px; /* Reduced width */
+  flex: 0 0 auto;
+  /* margin-right: 12px;  Optional spacing between cards */
+}
+
+.card {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  background: white;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card-image {
+  position: relative;
+  height: 120px; /* Reduced height */
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-title {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  font-size: 14px; /* Smaller font */
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+.card-content {
+  padding: 8px 10px; /* Smaller padding */
+  font-size: 12px;
+  color: #333;
+}
+
+.card-action {
+  padding: 8px 10px; /* Smaller padding */
+  background: #fff9d4;
+  text-align: right;
+}
+
+.card-action a {
+  background-color: #f28500;
+  color: white;
+  padding: 6px 10px; /* Smaller button */
+  font-size: 12px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.card-action a:hover {
+  background-color: #d97706;
+}
